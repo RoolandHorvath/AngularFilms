@@ -7,11 +7,12 @@ import { MaterialModule } from '../../modules/material.module';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { switchMap, tap } from 'rxjs';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-films',
   standalone: true,
-  imports: [MaterialModule],
+  imports: [MaterialModule, RouterModule],
   templateUrl: './films.component.html',
   styleUrl: './films.component.css',
 })

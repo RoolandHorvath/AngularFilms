@@ -55,4 +55,12 @@ export class FilmsService {
       catchError(err => this.usersService.processError(err))
     );
   }
+
+  addFilm(film: Film): Observable<Film> {
+    return this.http.post<Film>(`${this.url}films`, film, this.getTokenHeader());
+  }
+
+  updateFilm(film: Film): Observable<Film> {
+    return this.http.put<Film>(`${this.url}films/${film.id}`, film, this.getTokenHeader());
+  }
 }
