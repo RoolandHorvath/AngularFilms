@@ -34508,4 +34508,190 @@
   "reziser" : [ ],
   "postava" : [ ],
   "poradieVRebricku" : { }
+}, {
+  "id" : 127,
+  "nazov" : "názov filmu 1",
+  "slovenskyNazov" : "názov filmu jeden",
+  "rok" : 1999,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "AFI 1998" : 9,
+    "AFI 2007" : 9
+  }
+}, {
+  "id" : 128,
+  "nazov" : "filmtest3",
+  "slovenskyNazov" : "filmtesttri",
+  "rok" : 1992,
+  "imdbID" : "8",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 129,
+  "nazov" : "filmtest4",
+  "slovenskyNazov" : "filmteststyri",
+  "rok" : 1909,
+  "imdbID" : "19",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 130,
+  "nazov" : "film5",
+  "slovenskyNazov" : "abcd",
+  "rok" : 1900,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 131,
+  "nazov" : "film6",
+  "slovenskyNazov" : "filmsest",
+  "rok" : 1999,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "afi1998" : 28,
+    "afi2007" : 39
+  }
+}, {
+  "id" : 132,
+  "nazov" : "film7",
+  "slovenskyNazov" : "abcd",
+  "rok" : 1898,
+  "imdbID" : "8",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 133,
+  "nazov" : "film8",
+  "slovenskyNazov" : "filmosem",
+  "rok" : 1932,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 134,
+  "nazov" : "final film",
+  "slovenskyNazov" : "posledný film",
+  "rok" : 1983,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 135,
+  "nazov" : "A Place in the Sun",
+  "slovenskyNazov" : "Miesto na výslní",
+  "rok" : 1951,
+  "imdbID" : "tt0043924",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 136,
+  "nazov" : "názov filmu 1",
+  "slovenskyNazov" : "názov filmu jeden",
+  "rok" : 1999,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 137,
+  "nazov" : "filmNameTest",
+  "slovenskyNazov" : "",
+  "rok" : 1999,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 138,
+  "nazov" : "filmNameTest",
+  "slovenskyNazov" : "",
+  "rok" : 2002,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 139,
+  "nazov" : "editedFilmTest",
+  "slovenskyNazov" : "",
+  "rok" : 2003,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 140,
+  "nazov" : "filmTest2",
+  "slovenskyNazov" : "testovanie filmu 2",
+  "rok" : 1999,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 141,
+  "nazov" : "A Night at the Opera",
+  "slovenskyNazov" : "Noc v opere",
+  "rok" : 1935,
+  "imdbID" : "tt0026778",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 142,
+  "nazov" : "A Place in the Sun",
+  "slovenskyNazov" : "Miesto na výslní",
+  "rok" : 1951,
+  "imdbID" : "tt0043924",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 143,
+  "nazov" : "filmNazov1",
+  "slovenskyNazov" : "filmNazovJeden",
+  "rok" : 2003,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 144,
+  "nazov" : "názov filmu 1",
+  "slovenskyNazov" : "názov filmu jeden",
+  "rok" : 1999,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 145,
+  "nazov" : "nazovFilmu2",
+  "slovenskyNazov" : "nazovFilmuDva",
+  "rok" : 2014,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 146,
+  "nazov" : "testujemFilm1",
+  "slovenskyNazov" : "testujemFilmJeden",
+  "rok" : 1972,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
 } ]

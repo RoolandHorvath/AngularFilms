@@ -1,0 +1,90 @@
+<form [formGroup]="filmForm" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <mat-label>Názov</mat-label>
+        <input matInput formControlName="nazov" required>
+        <mat-error *ngIf="filmForm.get('nazov')?.errors?.['required']">Názov is required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Rok</mat-label>
+        <input matInput type="number" formControlName="rok" required>
+        <mat-error *ngIf="filmForm.get('rok')?.errors?.['required']">Rok is required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Slovenský Názov</mat-label>
+        <input matInput formControlName="slovenskyNazov">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>IMDb ID</mat-label>
+        <input matInput formControlName="imdbID">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>AFI 1998 Ranking</mat-label>
+        <input matInput type="number" formControlName="afi1998">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>AFI 2007 Ranking</mat-label>
+        <input matInput type="number" formControlName="afi2007">
+    </mat-form-field>
+
+    <div formArrayName="reziseri">
+        <div *ngFor="let rez of reziseri.controls; let i = index" [formGroupName]="i">
+            <h3>Režisér {{ i + 1 }}</h3>
+            <mat-form-field>
+                <mat-label>Krstné Meno</mat-label>
+                <input matInput formControlName="krstneMeno" required matTooltip="Režisér - Krstné Meno">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Stredné Meno</mat-label>
+                <input matInput formControlName="stredneMeno" matTooltip="Režisér - Stredné Meno">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Priezvisko</mat-label>
+                <input matInput formControlName="priezvisko" required matTooltip="Režisér - Priezvisko">
+            </mat-form-field>
+            <button mat-button type="button" (click)="removeReziser(i)">Remove</button>
+        </div>
+        <button mat-button type="button" (click)="addReziser()">Add Režisér</button>
+    </div>
+
+    <div formArrayName="postavy">
+        <div *ngFor="let pos of postavy.controls; let i = index" [formGroupName]="i">
+            <h3>Postava {{ i + 1 }}</h3>
+            <mat-form-field>
+                <mat-label>Názov</mat-label>
+                <input matInput formControlName="postava" required matTooltip="Postava">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Dôležitosť</mat-label>
+                <mat-select formControlName="dolezitost" required matTooltip="Dôležitosť">
+                    <mat-option value="hlavná postava">Hlavná postava</mat-option>
+                    <mat-option value="vedľajšia postava">Vedľajšia postava</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <div formGroupName="herec">
+                <mat-form-field>
+                    <mat-label>Krstné Meno</mat-label>
+                    <input matInput formControlName="krstneMeno" required matTooltip="Herec - Krstné Meno">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Stredné Meno</mat-label>
+                    <input matInput formControlName="stredneMeno" matTooltip="Herec - Stredné Meno">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Priezvisko</mat-label>
+                    <input matInput formControlName="priezvisko" required matTooltip="Herec - Priezvisko">
+                </mat-form-field>
+            </div>
+            <button mat-button type="button" (click)="removePostava(i)">Remove</button>
+        </div>
+        <button mat-button type="button" (click)="addPostava()">Add Postava</button>
+    </div>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="!filmForm.valid">
+        {{ isEdit ? 'Update' : 'Create' }}
+      </button>      
+</form>
