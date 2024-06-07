@@ -1,6 +1,6 @@
 [ {
   "id" : 1,
-  "nazov" : "12 Angry Men",
+  "nazov" : "13 Angry Men",
   "slovenskyNazov" : "Dvanásť rozhnevaných mužov",
   "rok" : 1957,
   "imdbID" : "tt0050083",
@@ -22,397 +22,14 @@
 }, {
   "id" : 3,
   "nazov" : "A Clockwork Orange",
-  "slovenskyNazov" : "Mechanický pomaranč",
+  "slovenskyNazov" : "Mechanický pomaranc",
   "rok" : 1971,
-  "imdbID" : "tt0066921",
-  "reziser" : [ {
-    "id" : 47,
-    "krstneMeno" : "Stanley",
-    "stredneMeno" : null,
-    "priezvisko" : "Kubrick"
-  } ],
-  "postava" : [ {
-    "postava" : "Alex",
-    "dolezitost" : "hlavná postava",
-    "herec" : {
-      "id" : 2048,
-      "krstneMeno" : "Malcolm",
-      "stredneMeno" : null,
-      "priezvisko" : "McDowell"
-    }
-  }, {
-    "postava" : "Billyboy",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 681,
-      "krstneMeno" : "Richard",
-      "stredneMeno" : null,
-      "priezvisko" : "Connaught"
-    }
-  }, {
-    "postava" : "Catlady",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1620,
-      "krstneMeno" : "Miriam",
-      "stredneMeno" : null,
-      "priezvisko" : "Karlin"
-    }
-  }, {
-    "postava" : "Chief Guard",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 278,
-      "krstneMeno" : "Michael",
-      "stredneMeno" : null,
-      "priezvisko" : "Bates"
-    }
-  }, {
-    "postava" : "Conspirator",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2662,
-      "krstneMeno" : "John",
-      "stredneMeno" : null,
-      "priezvisko" : "Savident"
-    }
-  }, {
-    "postava" : "Conspirator",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3017,
-      "krstneMeno" : "Margaret",
-      "stredneMeno" : null,
-      "priezvisko" : "Tyzack"
-    }
-  }, {
-    "postava" : "Dad",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2865,
-      "krstneMeno" : "Philip",
-      "stredneMeno" : null,
-      "priezvisko" : "Stone"
-    }
-  }, {
-    "postava" : "Deltoid",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2172,
-      "krstneMeno" : "Aubrey",
-      "stredneMeno" : null,
-      "priezvisko" : "Morris"
-    }
-  }, {
-    "postava" : "Desk Sergeant",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1100,
-      "krstneMeno" : "Lee",
-      "stredneMeno" : null,
-      "priezvisko" : "Fox"
-    }
-  }, {
-    "postava" : "Det. Const. Tom",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 326,
-      "krstneMeno" : "Steven",
-      "stredneMeno" : null,
-      "priezvisko" : "Berkoff"
-    }
-  }, {
-    "postava" : "Detective sergeant",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 551,
-      "krstneMeno" : "John",
-      "stredneMeno" : "J.",
-      "priezvisko" : "Carney"
-    }
-  }, {
-    "postava" : "Dim",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 636,
-      "krstneMeno" : "Warren",
-      "stredneMeno" : null,
-      "priezvisko" : "Clarke"
-    }
-  }, {
-    "postava" : "Doctor",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1514,
-      "krstneMeno" : "Craig",
-      "stredneMeno" : null,
-      "priezvisko" : "Hunter"
-    }
-  }, {
-    "postava" : "Dr. Alcott, Ludovico Center check-in",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 693,
-      "krstneMeno" : "Barrie",
-      "stredneMeno" : null,
-      "priezvisko" : "Cookson"
-    }
-  }, {
-    "postava" : "Dr. Branom",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2625,
-      "krstneMeno" : "Madge",
-      "stredneMeno" : null,
-      "priezvisko" : "Ryan"
-    }
-  }, {
-    "postava" : "Dr. Brodsky",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 933,
-      "krstneMeno" : "Carl",
-      "stredneMeno" : null,
-      "priezvisko" : "Duering"
-    }
-  }, {
-    "postava" : "Dr. Taylor (Psychiatrist)",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2932,
-      "krstneMeno" : "Pauline",
-      "stredneMeno" : null,
-      "priezvisko" : "Taylor"
-    }
-  }, {
-    "postava" : "Georgie",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1964,
-      "krstneMeno" : "James",
-      "stredneMeno" : null,
-      "priezvisko" : "Marcus"
-    }
-  }, {
-    "postava" : "Girl in Ascot Fantasy",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3288,
-      "krstneMeno" : "Katya",
-      "stredneMeno" : null,
-      "priezvisko" : "Wyeth"
-    }
-  }, {
-    "postava" : "Handmaiden in Bible Fantasy",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 109,
-      "krstneMeno" : "Jan",
-      "stredneMeno" : null,
-      "priezvisko" : "Adair"
-    }
-  }, {
-    "postava" : "Handmaiden in Bible Fantasy",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 595,
-      "krstneMeno" : "Vivienne",
-      "stredneMeno" : null,
-      "priezvisko" : "Chandler"
-    }
-  }, {
-    "postava" : "Handmaiden in Bible fantasy",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 925,
-      "krstneMeno" : "Prudence",
-      "stredneMeno" : null,
-      "priezvisko" : "Drage"
-    }
-  }, {
-    "postava" : "Julian",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2440,
-      "krstneMeno" : "David",
-      "stredneMeno" : null,
-      "priezvisko" : "Prowse"
-    }
-  }, {
-    "postava" : "Junior Minister – Minister Frederick's Aid",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 496,
-      "krstneMeno" : "Peter",
-      "stredneMeno" : null,
-      "priezvisko" : "Burton"
-    }
-  }, {
-    "postava" : "Lodger",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1103,
-      "krstneMeno" : "Clive",
-      "stredneMeno" : null,
-      "priezvisko" : "Francis"
-    }
-  }, {
-    "postava" : "Minister",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2733,
-      "krstneMeno" : "Anthony",
-      "stredneMeno" : null,
-      "priezvisko" : "Sharp"
-    }
-  }, {
-    "postava" : "Mr. Alexander",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1930,
-      "krstneMeno" : "Patrick",
-      "stredneMeno" : null,
-      "priezvisko" : "Magee"
-    }
-  }, {
-    "postava" : "Mrs. Alexander",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 711,
-      "krstneMeno" : "Adrienne",
-      "stredneMeno" : null,
-      "priezvisko" : "Corri"
-    }
-  }, {
-    "postava" : "Mum",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2497,
-      "krstneMeno" : "Sheila",
-      "stredneMeno" : null,
-      "priezvisko" : "Raynor"
-    }
-  }, {
-    "postava" : "Nurse Feeley",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 931,
-      "krstneMeno" : "Carol",
-      "stredneMeno" : null,
-      "priezvisko" : "Drinkwater"
-    }
-  }, {
-    "postava" : "Pete",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2927,
-      "krstneMeno" : "Michael",
-      "stredneMeno" : null,
-      "priezvisko" : "Tarn"
-    }
-  }, {
-    "postava" : "Police Inspector",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 529,
-      "krstneMeno" : "Lindsay",
-      "stredneMeno" : null,
-      "priezvisko" : "Campbell"
-    }
-  }, {
-    "postava" : "Prison Chaplain",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2457,
-      "krstneMeno" : "Godfrey",
-      "stredneMeno" : null,
-      "priezvisko" : "Quigley"
-    }
-  }, {
-    "postava" : "Prison Check-in Officer",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3226,
-      "krstneMeno" : "Neil",
-      "stredneMeno" : null,
-      "priezvisko" : "Wilson"
-    }
-  }, {
-    "postava" : "Prison Governor",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1236,
-      "krstneMeno" : "Michael",
-      "stredneMeno" : null,
-      "priezvisko" : "Gover"
-    }
-  }, {
-    "postava" : "Rape Victim in Film",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1285,
-      "krstneMeno" : "Cheryl",
-      "stredneMeno" : null,
-      "priezvisko" : "Grunwald"
-    }
-  }, {
-    "postava" : "Sonietta",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1441,
-      "krstneMeno" : "Gillian",
-      "stredneMeno" : null,
-      "priezvisko" : "Hills"
-    }
-  }, {
-    "postava" : "Sophisto",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 455,
-      "krstneMeno" : "Gaye",
-      "stredneMeno" : null,
-      "priezvisko" : "Brown"
-    }
-  }, {
-    "postava" : "Stage Actor",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 647,
-      "krstneMeno" : "John",
-      "stredneMeno" : null,
-      "priezvisko" : "Clive"
-    }
-  }, {
-    "postava" : "Stage Actress",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3168,
-      "krstneMeno" : "Virginia",
-      "stredneMeno" : null,
-      "priezvisko" : "Wetherell"
-    }
-  }, {
-    "postava" : "Tramp",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1024,
-      "krstneMeno" : "Paul",
-      "stredneMeno" : null,
-      "priezvisko" : "Farrell"
-    }
-  }, {
-    "postava" : "Victim of Billyboy's gang",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1553,
-      "krstneMeno" : "Shirley",
-      "stredneMeno" : null,
-      "priezvisko" : "Jaffe"
-    }
-  } ],
+  "imdbID" : "tt0066922",
+  "reziser" : [ ],
+  "postava" : [ ],
   "poradieVRebricku" : {
-    "AFI 2007" : 70,
-    "AFI 1998" : 46
+    "AFI 1998" : 34,
+    "AFI 2007" : 56
   }
 }, {
   "id" : 4,
@@ -716,7 +333,7 @@
   "reziser" : [ {
     "id" : 43,
     "krstneMeno" : "Elia",
-    "stredneMeno" : null,
+    "stredneMeno" : "MiddleName",
     "priezvisko" : "Kazan"
   } ],
   "postava" : [ {
@@ -829,8 +446,8 @@
     }
   } ],
   "poradieVRebricku" : {
-    "AFI 2007" : 47,
-    "AFI 1998" : 45
+    "AFI 1998" : 38,
+    "AFI 2007" : 25
   }
 }, {
   "id" : 7,
@@ -34293,5 +33910,41 @@
   "poradieVRebricku" : {
     "afi1998" : null,
     "afi2007" : null
+  }
+}, {
+  "id" : 151,
+  "nazov" : "test1",
+  "slovenskyNazov" : "testjeden",
+  "rok" : 1909,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "afi1998" : 92,
+    "afi2007" : 28
+  }
+}, {
+  "id" : 152,
+  "nazov" : "newTest",
+  "slovenskyNazov" : "",
+  "rok" : 1909,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "AFI 1998" : 90,
+    "AFI 2007" : 80
+  }
+}, {
+  "id" : 153,
+  "nazov" : "testtesttest",
+  "slovenskyNazov" : "",
+  "rok" : 1988,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "AFI 1998" : null,
+    "AFI 2007" : null
   }
 } ]

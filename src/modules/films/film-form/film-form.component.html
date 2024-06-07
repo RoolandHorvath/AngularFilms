@@ -31,8 +31,8 @@
       <input matInput type="number" formControlName="afi2007">
     </mat-form-field>
   
-    <div formArrayName="reziseri">
-      <div *ngFor="let rez of reziseri.controls; let i = index" [formGroupName]="i">
+    <div formArrayName="reziser">
+      <div *ngFor="let rez of reziser.controls; let i = index" [formGroupName]="i">
         <h3>Režisér {{ i + 1 }}</h3>
         <mat-form-field>
           <mat-label>Krstné Meno</mat-label>
@@ -51,8 +51,8 @@
       <button mat-button type="button" (click)="addReziser()">Add Režisér</button>
     </div>
   
-    <div formArrayName="postavy">
-      <div *ngFor="let pos of postavy.controls; let i = index" [formGroupName]="i">
+    <div formArrayName="postava">
+      <div *ngFor="let pos of postava.controls; let i = index" [formGroupName]="i">
         <h3>Postava {{ i + 1 }}</h3>
         <mat-form-field>
           <mat-label>Názov</mat-label>

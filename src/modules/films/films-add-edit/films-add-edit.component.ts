@@ -52,14 +52,6 @@ export class FilmsAddEditComponent implements OnInit, AfterViewInit {
       console.error('Submission attempted without a film object.');
       return;
     }
-    const operation = film.id ? this.filmsService.updateFilm(film) : this.filmsService.addFilm(film);
-    operation.subscribe({
-      next: () => {
-        this.router.navigate(['/films']);
-      },
-      error: (err: HttpErrorResponse) => {
-        console.error('Error saving film:', err.message);
-      }
-    });
+    this.router.navigate(['/films']);
   }
 }

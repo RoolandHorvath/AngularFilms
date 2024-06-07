@@ -40,8 +40,8 @@ export class FilmFormComponent implements OnInit, OnChanges {
       imdbID: [''],
       afi1998: [''],
       afi2007: [''],
-      reziseri: this.fb.array([]),
-      postavy: this.fb.array([])
+      reziser: this.fb.array([]),
+      postava: this.fb.array([])
     });
   }
 
@@ -67,45 +67,45 @@ export class FilmFormComponent implements OnInit, OnChanges {
         rok,
         slovenskyNazov,
         imdbID,
-        afi1998: poradieVRebricku?.['afi1998'],
-        afi2007: poradieVRebricku?.['afi2007']
+        afi1998: poradieVRebricku?.['AFI 1998'],
+        afi2007: poradieVRebricku?.['AFI 2007']
       });
-      this.setFormArrays('reziseri', reziser || []);
-      this.setFormArrays('postavy', postava || []);
+      this.setFormArrays('reziser', reziser || []);
+      this.setFormArrays('postava', postava || []);
     } else {
       this.isEdit = false;
     }
   }
 
-  setFormArrays(key: 'reziseri' | 'postavy', items: any[]): void {
+  setFormArrays(key: 'reziser' | 'postava', items: any[]): void {
     const array = items.map(item =>
-      key === 'reziseri' ? this.createPersonFormGroup(item as Person) : this.createPostavaFormGroup(item as Postava)
+      key === 'reziser' ? this.createPersonFormGroup(item as Person) : this.createPostavaFormGroup(item as Postava)
     );
     this.filmForm.setControl(key, this.fb.array(array));
   }
 
-  get reziseri(): FormArray {
-    return this.filmForm.get('reziseri') as FormArray;
+  get reziser(): FormArray {
+    return this.filmForm.get('reziser') as FormArray;
   }
 
-  get postavy(): FormArray {
-    return this.filmForm.get('postavy') as FormArray;
+  get postava(): FormArray {
+    return this.filmForm.get('postava') as FormArray;
   }
 
   addReziser(): void {
-    this.reziseri.push(this.createPersonFormGroup(new Person(0, '', '', '')));
+    this.reziser.push(this.createPersonFormGroup(new Person(0, '', '', '')));
   }
 
   removeReziser(index: number): void {
-    this.reziseri.removeAt(index);
+    this.reziser.removeAt(index);
   }
 
   addPostava(): void {
-    this.postavy.push(this.createPostavaFormGroup(new Postava('', 'hlavná postava', new Person(0, '', '', ''))));
+    this.postava.push(this.createPostavaFormGroup(new Postava('', 'hlavná postava', new Person(0, '', '', ''))));
   }
 
   removePostava(index: number): void {
-    this.postavy.removeAt(index);
+    this.postava.removeAt(index);
   }
 
   createPersonFormGroup(person: Person): FormGroup {
@@ -136,8 +136,8 @@ export class FilmFormComponent implements OnInit, OnChanges {
       const filmData: Film = {
         ...formValue,
         poradieVRebricku: {
-          afi1998: formValue.afi1998,
-          afi2007: formValue.afi2007
+          "AFI 1998": formValue.afi1998,
+          "AFI 2007": formValue.afi2007
         },
         id: this.film?.id
       };

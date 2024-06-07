@@ -72,9 +72,10 @@ export class FilmsService {
   }
 
   getFilm(id: number): Observable<Film> {
-    return this.http.get<Film>(`${this.url}${id}`, this.getTokenHeader()).pipe(
+    const options = this.getTokenHeader()
+    return this.http.get<Film>(`${this.url}${id}`, options).pipe(
       tap(film => {
-        if (!film) console.log(`No film found with ID ${id}`);
+      if (!film) console.log(`No film found with ID ${id}`);
       }),
       catchError(this.handleError)
     );
