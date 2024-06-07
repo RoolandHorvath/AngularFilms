@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Film } from '../../../entities/film';
 import { FilmsService } from '../../../services/films.service';
@@ -12,7 +12,7 @@ import { FilmFormComponent } from '../film-form/film-form.component';
   standalone: true,
   imports: [FilmFormComponent]
 })
-export class FilmsAddEditComponent implements OnInit {
+export class FilmsAddEditComponent implements OnInit, AfterViewInit {
   film?: Film;
   @ViewChild(FilmFormComponent) filmFormComponent?: FilmFormComponent;
 
@@ -29,29 +29,25 @@ export class FilmsAddEditComponent implements OnInit {
         next: (data: Film) => {
           this.film = data;
           if (!data) {
-            console.error('No film data found');
             this.router.navigate(['/films']);
             return;
           }
-          this.filmFormComponent?.initializeForm();
         },
         error: (err: HttpErrorResponse) => {
-          console.error('Error fetching film:', err.message);
           this.router.navigate(['/films']);
         }
       });
     } else {
-      console.log('Adding new film - no ID provided');
       this.film = new Film('', 0, '', '', [], [], {});
-      this.filmFormComponent?.initializeForm();
     }
-  }
+  }  
 
   ngAfterViewInit(): void {
-    this.filmFormComponent?.initializeForm();
+    this.filmFormComponent?.initializeForm(this.film);
   }
 
   handleFormSubmit(film: Film): void {
+    console.log(film)
     if (!film) {
       console.error('Submission attempted without a film object.');
       return;
@@ -59,7 +55,6 @@ export class FilmsAddEditComponent implements OnInit {
     const operation = film.id ? this.filmsService.updateFilm(film) : this.filmsService.addFilm(film);
     operation.subscribe({
       next: () => {
-        console.log('Film saved successfully');
         this.router.navigate(['/films']);
       },
       error: (err: HttpErrorResponse) => {

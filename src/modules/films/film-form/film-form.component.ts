@@ -46,32 +46,39 @@ export class FilmFormComponent implements OnInit, OnChanges {
   }
 
   ngOnInit(): void {
-    this.initializeForm();
+    this.initializeForm(this.film);
   }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['film'] && this.film) {
       this.isEdit = true;
-      this.initializeForm();
+      this.initializeForm(this.film);
     } else {
       this.isEdit = false;
     }
-  }  
+  }
 
-  initializeForm(): void {
-    if (this.film && this.film.id) {
+  initializeForm(film?: Film): void {
+    if (film && film.id) {
       this.isEdit = true;
-      this.filmForm.patchValue(this.film);
-      this.setFormArrays('reziseri', this.film.reziser || []);
-      this.setFormArrays('postavy', this.film.postava || []);
+      const { nazov, rok, slovenskyNazov, imdbID, poradieVRebricku, reziser, postava } = film;
+      this.filmForm.patchValue({
+        nazov,
+        rok,
+        slovenskyNazov,
+        imdbID,
+        afi1998: poradieVRebricku?.['afi1998'],
+        afi2007: poradieVRebricku?.['afi2007']
+      });
+      this.setFormArrays('reziseri', reziser || []);
+      this.setFormArrays('postavy', postava || []);
     } else {
       this.isEdit = false;
     }
-    console.log('Component mode isEdit:', this.isEdit);
-  }  
+  }
 
   setFormArrays(key: 'reziseri' | 'postavy', items: any[]): void {
-    const array = items.map(item => 
+    const array = items.map(item =>
       key === 'reziseri' ? this.createPersonFormGroup(item as Person) : this.createPostavaFormGroup(item as Postava)
     );
     this.filmForm.setControl(key, this.fb.array(array));
@@ -124,37 +131,38 @@ export class FilmFormComponent implements OnInit, OnChanges {
   }
 
   onSubmit(): void {
-    console.log('Submitting form with value:', this.filmForm.value);
-  
     if (this.filmForm.valid) {
+      const formValue = this.filmForm.value;
+      const filmData: Film = {
+        ...formValue,
+        poradieVRebricku: {
+          afi1998: formValue.afi1998,
+          afi2007: formValue.afi2007
+        },
+        id: this.film?.id
+      };
+
       if (this.isEdit && this.film?.id) {
-        console.log('Updating film with ID:', this.film.id);
-        this.filmsService.updateFilm({...this.filmForm.value, id: this.film.id})
-          .subscribe({
-            next: (updatedFilm: Film) => { // Assuming Film is your data model
-              console.log('Film updated successfully:', updatedFilm);
-              // Handle successful update
-            },
-            error: (error: any) => { // Consider defining a more specific error type
-              console.error('Error updating film:', error);
-            }
-          });
+        this.filmsService.updateFilm(filmData).subscribe({
+          next: (updatedFilm: Film) => {
+            this.formSubmit.emit(updatedFilm);
+          },
+          error: (error: any) => {
+            console.error('Error updating film:', error);
+          }
+        });
       } else {
-        console.log('Creating new film');
-        this.filmsService.addFilm(this.filmForm.value)
-          .subscribe({
-            next: (newFilm: Film) => { // Assuming Film is your data model
-              console.log('Film added successfully:', newFilm);
-              // Handle successful creation
-            },
-            error: (error: any) => { // Consider defining a more specific error type
-              console.error('Error adding new film:', error);
-            }
-          });
+        this.filmsService.addFilm(filmData).subscribe({
+          next: (newFilm: Film) => {
+            this.formSubmit.emit(newFilm);
+          },
+          error: (error: any) => {
+            console.error('Error adding new film:', error);
+          }
+        });
       }
     } else {
       console.error('Form is invalid:', this.filmForm.errors);
     }
   }
-  
 }

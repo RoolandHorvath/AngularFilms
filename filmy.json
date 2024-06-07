@@ -4,473 +4,20 @@
   "slovenskyNazov" : "Dvanásť rozhnevaných mužov",
   "rok" : 1957,
   "imdbID" : "tt0050083",
-  "reziser" : [ {
-    "id" : 53,
-    "krstneMeno" : "Sidney",
-    "stredneMeno" : null,
-    "priezvisko" : "Lumet"
-  } ],
-  "postava" : [ {
-    "postava" : "Juror 8",
-    "dolezitost" : "hlavná postava",
-    "herec" : {
-      "id" : 1082,
-      "krstneMeno" : "Henry",
-      "stredneMeno" : null,
-      "priezvisko" : "Fonda"
-    }
-  }, {
-    "postava" : "Juror 1",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 236,
-      "krstneMeno" : "Martin",
-      "stredneMeno" : null,
-      "priezvisko" : "Balsam"
-    }
-  }, {
-    "postava" : "Juror 10",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 297,
-      "krstneMeno" : "Ed",
-      "stredneMeno" : null,
-      "priezvisko" : "Begley"
-    }
-  }, {
-    "postava" : "Juror 11",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3078,
-      "krstneMeno" : "George",
-      "stredneMeno" : null,
-      "priezvisko" : "Voskovec"
-    }
-  }, {
-    "postava" : "Juror 12",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3149,
-      "krstneMeno" : "Robert",
-      "stredneMeno" : null,
-      "priezvisko" : "Webber"
-    }
-  }, {
-    "postava" : "Juror 2",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1043,
-      "krstneMeno" : "John",
-      "stredneMeno" : null,
-      "priezvisko" : "Fiedler"
-    }
-  }, {
-    "postava" : "Juror 3",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 651,
-      "krstneMeno" : "Lee",
-      "stredneMeno" : "J.",
-      "priezvisko" : "Cobb"
-    }
-  }, {
-    "postava" : "Juror 4",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1985,
-      "krstneMeno" : "E.",
-      "stredneMeno" : "G.",
-      "priezvisko" : "Marshall"
-    }
-  }, {
-    "postava" : "Juror 5",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1695,
-      "krstneMeno" : "Jack",
-      "stredneMeno" : null,
-      "priezvisko" : "Klugman"
-    }
-  }, {
-    "postava" : "Juror 6",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 346,
-      "krstneMeno" : "Edward",
-      "stredneMeno" : null,
-      "priezvisko" : "Binns"
-    }
-  }, {
-    "postava" : "Juror 7",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3117,
-      "krstneMeno" : "Jack",
-      "stredneMeno" : null,
-      "priezvisko" : "Warden"
-    }
-  }, {
-    "postava" : "Juror 9",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2907,
-      "krstneMeno" : "Joseph",
-      "stredneMeno" : null,
-      "priezvisko" : "Sweeney"
-    }
-  } ],
-  "poradieVRebricku" : {
-    "AFI 2007" : 87
-  }
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
 }, {
   "id" : 2,
   "nazov" : "2001: A Space Odyssey",
   "slovenskyNazov" : "2001: Vesmírna odysea",
   "rok" : 1968,
   "imdbID" : "tt0062622",
-  "reziser" : [ {
-    "id" : 47,
-    "krstneMeno" : "Stanley",
-    "stredneMeno" : null,
-    "priezvisko" : "Kubrick"
-  } ],
-  "postava" : [ {
-    "postava" : "Dr. Dave Bowman",
-    "dolezitost" : "hlavná postava",
-    "herec" : {
-      "id" : 937,
-      "krstneMeno" : "Keir",
-      "stredneMeno" : null,
-      "priezvisko" : "Dullea"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 194,
-      "krstneMeno" : "John",
-      "stredneMeno" : null,
-      "priezvisko" : "Ashley"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 299,
-      "krstneMeno" : "Jimmy",
-      "stredneMeno" : null,
-      "priezvisko" : "Bell"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 601,
-      "krstneMeno" : "David",
-      "stredneMeno" : null,
-      "priezvisko" : "Charkham"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 809,
-      "krstneMeno" : "Simon",
-      "stredneMeno" : null,
-      "priezvisko" : "Davis"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 810,
-      "krstneMeno" : "Jonathan",
-      "stredneMeno" : null,
-      "priezvisko" : "Daw"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 844,
-      "krstneMeno" : "Péter",
-      "stredneMeno" : null,
-      "priezvisko" : "Delmár"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1073,
-      "krstneMeno" : "David",
-      "stredneMeno" : null,
-      "priezvisko" : "Fleetwood"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1281,
-      "krstneMeno" : "Danny",
-      "stredneMeno" : null,
-      "priezvisko" : "Grover"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1371,
-      "krstneMeno" : "Brian",
-      "stredneMeno" : null,
-      "priezvisko" : "Hawley"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1444,
-      "krstneMeno" : "David",
-      "stredneMeno" : null,
-      "priezvisko" : "Hines"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1549,
-      "krstneMeno" : "Tony",
-      "stredneMeno" : null,
-      "priezvisko" : "Jackson"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1594,
-      "krstneMeno" : "John",
-      "stredneMeno" : null,
-      "priezvisko" : "Jordan"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1915,
-      "krstneMeno" : "Scott",
-      "stredneMeno" : null,
-      "priezvisko" : "MacKee"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1961,
-      "krstneMeno" : "Laurence",
-      "stredneMeno" : null,
-      "priezvisko" : "Marchant"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2324,
-      "krstneMeno" : "Darryl",
-      "stredneMeno" : null,
-      "priezvisko" : "Paes"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2515,
-      "krstneMeno" : "Joe",
-      "stredneMeno" : null,
-      "priezvisko" : "Refalo"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3095,
-      "krstneMeno" : "Andy",
-      "stredneMeno" : null,
-      "priezvisko" : "Wallace"
-    }
-  }, {
-    "postava" : "Ape",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3232,
-      "krstneMeno" : "Bob",
-      "stredneMeno" : null,
-      "priezvisko" : "Wilyman"
-    }
-  }, {
-    "postava" : "Ape Attacked by Leopard",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 936,
-      "krstneMeno" : "Terry",
-      "stredneMeno" : null,
-      "priezvisko" : "Duggan"
-    }
-  }, {
-    "postava" : "Ape Killed by Moon-Watcher",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3267,
-      "krstneMeno" : "Richard",
-      "stredneMeno" : null,
-      "priezvisko" : "Woods"
-    }
-  }, {
-    "postava" : "Aries-1B Lunar Shuttle Captain",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 349,
-      "krstneMeno" : "Ed",
-      "stredneMeno" : null,
-      "priezvisko" : "Bishop"
-    }
-  }, {
-    "postava" : "Aries-1B Stewardess",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 560,
-      "krstneMeno" : "Edwina",
-      "stredneMeno" : null,
-      "priezvisko" : "Carroll"
-    }
-  }, {
-    "postava" : "Astronaut",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 292,
-      "krstneMeno" : "Glenn",
-      "stredneMeno" : null,
-      "priezvisko" : "Beck"
-    }
-  }, {
-    "postava" : "Astronaut",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1885,
-      "krstneMeno" : "Mike",
-      "stredneMeno" : null,
-      "priezvisko" : "Lovell"
-    }
-  }, {
-    "postava" : "Astronaut",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3167,
-      "krstneMeno" : "Bill",
-      "stredneMeno" : null,
-      "priezvisko" : "Weston"
-    }
-  }, {
-    "postava" : "Dr. Andrei Smyslov",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2607,
-      "krstneMeno" : "Leonard",
-      "stredneMeno" : null,
-      "priezvisko" : "Rossiter"
-    }
-  }, {
-    "postava" : "Dr. Bill Michaels",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2892,
-      "krstneMeno" : "Sean",
-      "stredneMeno" : null,
-      "priezvisko" : "Sullivan"
-    }
-  }, {
-    "postava" : "Dr. Frank Poole",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1864,
-      "krstneMeno" : "Gary",
-      "stredneMeno" : null,
-      "priezvisko" : "Lockwood"
-    }
-  }, {
-    "postava" : "Dr. Heywood R. Floyd",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2911,
-      "krstneMeno" : "William",
-      "stredneMeno" : null,
-      "priezvisko" : "Sylvester"
-    }
-  }, {
-    "postava" : "Dr. Ralph Halvorsen",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 290,
-      "krstneMeno" : "Robert",
-      "stredneMeno" : null,
-      "priezvisko" : "Beatty"
-    }
-  }, {
-    "postava" : "Elena",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 3017,
-      "krstneMeno" : "Margaret",
-      "stredneMeno" : null,
-      "priezvisko" : "Tyzack"
-    }
-  }, {
-    "postava" : "Moon-Watcher",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 2548,
-      "krstneMeno" : "Daniel",
-      "stredneMeno" : null,
-      "priezvisko" : "Richter"
-    }
-  }, {
-    "postava" : "Poole's Father",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1185,
-      "krstneMeno" : "Alan",
-      "stredneMeno" : null,
-      "priezvisko" : "Gifford"
-    }
-  }, {
-    "postava" : "Poole's Mother",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 1190,
-      "krstneMeno" : "Ann",
-      "stredneMeno" : null,
-      "priezvisko" : "Gillis"
-    }
-  }, {
-    "postava" : "Stewardess",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 417,
-      "krstneMeno" : "Penny",
-      "stredneMeno" : null,
-      "priezvisko" : "Brahms"
-    }
-  }, {
-    "postava" : "Stewardess",
-    "dolezitost" : "vedľajšia postava",
-    "herec" : {
-      "id" : 921,
-      "krstneMeno" : "Heather",
-      "stredneMeno" : null,
-      "priezvisko" : "Downham"
-    }
-  } ],
+  "reziser" : [ ],
+  "postava" : [ ],
   "poradieVRebricku" : {
-    "AFI 2007" : 15,
-    "AFI 1998" : 22
+    "afi1998" : 25,
+    "afi2007" : 16
   }
 }, {
   "id" : 3,
@@ -974,6 +521,15 @@
     "AFI 2007" : 85
   }
 }, {
+  "id" : 141,
+  "nazov" : "A Night at the Opera",
+  "slovenskyNazov" : "Noc v opere",
+  "rok" : 1935,
+  "imdbID" : "tt0026778",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
   "id" : 5,
   "nazov" : "A Place in the Sun",
   "slovenskyNazov" : "Miesto na výslní",
@@ -1133,6 +689,24 @@
   "poradieVRebricku" : {
     "AFI 1998" : 92
   }
+}, {
+  "id" : 135,
+  "nazov" : "A Place in the Sun",
+  "slovenskyNazov" : "Miesto na výslní",
+  "rok" : 1951,
+  "imdbID" : "tt0043924",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 142,
+  "nazov" : "A Place in the Sun",
+  "slovenskyNazov" : "Miesto na výslní",
+  "rok" : 1951,
+  "imdbID" : "tt0043924",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
 }, {
   "id" : 6,
   "nazov" : "A Streetcar Named Desire",
@@ -34482,59 +34056,11 @@
     "AFI 1998" : 100
   }
 }, {
-  "id" : 124,
-  "nazov" : "filmNameTest",
+  "id" : 139,
+  "nazov" : "editedFilmTest",
   "slovenskyNazov" : "",
-  "rok" : 1999,
+  "rok" : 2003,
   "imdbID" : "",
-  "reziser" : [ ],
-  "postava" : [ ],
-  "poradieVRebricku" : { }
-}, {
-  "id" : 125,
-  "nazov" : "zmena mena filmu",
-  "slovenskyNazov" : "novy film",
-  "rok" : 2001,
-  "imdbID" : "9",
-  "reziser" : [ ],
-  "postava" : [ ],
-  "poradieVRebricku" : { }
-}, {
-  "id" : 126,
-  "nazov" : "menim meno filmu",
-  "slovenskyNazov" : "abcd",
-  "rok" : 1899,
-  "imdbID" : "9",
-  "reziser" : [ ],
-  "postava" : [ ],
-  "poradieVRebricku" : { }
-}, {
-  "id" : 127,
-  "nazov" : "názov filmu 1",
-  "slovenskyNazov" : "názov filmu jeden",
-  "rok" : 1999,
-  "imdbID" : "9",
-  "reziser" : [ ],
-  "postava" : [ ],
-  "poradieVRebricku" : {
-    "AFI 1998" : 9,
-    "AFI 2007" : 9
-  }
-}, {
-  "id" : 128,
-  "nazov" : "filmtest3",
-  "slovenskyNazov" : "filmtesttri",
-  "rok" : 1992,
-  "imdbID" : "8",
-  "reziser" : [ ],
-  "postava" : [ ],
-  "poradieVRebricku" : { }
-}, {
-  "id" : 129,
-  "nazov" : "filmtest4",
-  "slovenskyNazov" : "filmteststyri",
-  "rok" : 1909,
-  "imdbID" : "19",
   "reziser" : [ ],
   "postava" : [ ],
   "poradieVRebricku" : { }
@@ -34578,29 +34104,28 @@
   "postava" : [ ],
   "poradieVRebricku" : { }
 }, {
-  "id" : 134,
-  "nazov" : "final film",
-  "slovenskyNazov" : "posledný film",
-  "rok" : 1983,
+  "id" : 147,
+  "nazov" : "filmName1",
+  "slovenskyNazov" : "nazovFilmu1",
+  "rok" : 1988,
   "imdbID" : "",
-  "reziser" : [ ],
+  "reziser" : [ {
+    "id" : 0,
+    "krstneMeno" : "Henry",
+    "stredneMeno" : "Wallace",
+    "priezvisko" : "Smith"
+  } ],
   "postava" : [ ],
-  "poradieVRebricku" : { }
+  "poradieVRebricku" : {
+    "afi1998" : 92,
+    "afi2007" : null
+  }
 }, {
-  "id" : 135,
-  "nazov" : "A Place in the Sun",
-  "slovenskyNazov" : "Miesto na výslní",
-  "rok" : 1951,
-  "imdbID" : "tt0043924",
-  "reziser" : [ ],
-  "postava" : [ ],
-  "poradieVRebricku" : { }
-}, {
-  "id" : 136,
-  "nazov" : "názov filmu 1",
-  "slovenskyNazov" : "názov filmu jeden",
+  "id" : 124,
+  "nazov" : "filmNameTest",
+  "slovenskyNazov" : "",
   "rok" : 1999,
-  "imdbID" : "9",
+  "imdbID" : "",
   "reziser" : [ ],
   "postava" : [ ],
   "poradieVRebricku" : { }
@@ -34623,9 +34148,9 @@
   "postava" : [ ],
   "poradieVRebricku" : { }
 }, {
-  "id" : 139,
-  "nazov" : "editedFilmTest",
-  "slovenskyNazov" : "",
+  "id" : 143,
+  "nazov" : "filmNazov1",
+  "slovenskyNazov" : "filmNazovJeden",
   "rok" : 2003,
   "imdbID" : "",
   "reziser" : [ ],
@@ -34641,37 +34166,37 @@
   "postava" : [ ],
   "poradieVRebricku" : { }
 }, {
-  "id" : 141,
-  "nazov" : "A Night at the Opera",
-  "slovenskyNazov" : "Noc v opere",
-  "rok" : 1935,
-  "imdbID" : "tt0026778",
+  "id" : 128,
+  "nazov" : "filmtest3",
+  "slovenskyNazov" : "filmtesttri",
+  "rok" : 1992,
+  "imdbID" : "8",
   "reziser" : [ ],
   "postava" : [ ],
   "poradieVRebricku" : { }
 }, {
-  "id" : 142,
-  "nazov" : "A Place in the Sun",
-  "slovenskyNazov" : "Miesto na výslní",
-  "rok" : 1951,
-  "imdbID" : "tt0043924",
+  "id" : 129,
+  "nazov" : "filmtest4",
+  "slovenskyNazov" : "filmteststyri",
+  "rok" : 1909,
+  "imdbID" : "19",
   "reziser" : [ ],
   "postava" : [ ],
   "poradieVRebricku" : { }
 }, {
-  "id" : 143,
-  "nazov" : "filmNazov1",
-  "slovenskyNazov" : "filmNazovJeden",
-  "rok" : 2003,
+  "id" : 134,
+  "nazov" : "final film",
+  "slovenskyNazov" : "posledný film",
+  "rok" : 1983,
   "imdbID" : "",
   "reziser" : [ ],
   "postava" : [ ],
   "poradieVRebricku" : { }
 }, {
-  "id" : 144,
-  "nazov" : "názov filmu 1",
-  "slovenskyNazov" : "názov filmu jeden",
-  "rok" : 1999,
+  "id" : 126,
+  "nazov" : "menim meno filmu",
+  "slovenskyNazov" : "abcd",
+  "rok" : 1899,
   "imdbID" : "9",
   "reziser" : [ ],
   "postava" : [ ],
@@ -34686,6 +34211,36 @@
   "postava" : [ ],
   "poradieVRebricku" : { }
 }, {
+  "id" : 127,
+  "nazov" : "názov filmu 1",
+  "slovenskyNazov" : "názov filmu jeden",
+  "rok" : 1999,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "AFI 1998" : 9,
+    "AFI 2007" : 9
+  }
+}, {
+  "id" : 136,
+  "nazov" : "názov filmu 1",
+  "slovenskyNazov" : "názov filmu jeden",
+  "rok" : 1999,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 144,
+  "nazov" : "názov filmu 1",
+  "slovenskyNazov" : "názov filmu jeden",
+  "rok" : 1999,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
   "id" : 146,
   "nazov" : "testujemFilm1",
   "slovenskyNazov" : "testujemFilmJeden",
@@ -34694,4 +34249,49 @@
   "reziser" : [ ],
   "postava" : [ ],
   "poradieVRebricku" : { }
+}, {
+  "id" : 148,
+  "nazov" : "xyz",
+  "slovenskyNazov" : "",
+  "rok" : 1989,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "afi1998" : null,
+    "afi2007" : null
+  }
+}, {
+  "id" : 149,
+  "nazov" : "xyzxyzxyz",
+  "slovenskyNazov" : "xyz",
+  "rok" : 1902,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "afi1998" : null,
+    "afi2007" : 25
+  }
+}, {
+  "id" : 125,
+  "nazov" : "zmena mena filmu",
+  "slovenskyNazov" : "novy film",
+  "rok" : 2001,
+  "imdbID" : "9",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : { }
+}, {
+  "id" : 150,
+  "nazov" : "testtest",
+  "slovenskyNazov" : "",
+  "rok" : 1999,
+  "imdbID" : "",
+  "reziser" : [ ],
+  "postava" : [ ],
+  "poradieVRebricku" : {
+    "afi1998" : null,
+    "afi2007" : null
+  }
 } ]

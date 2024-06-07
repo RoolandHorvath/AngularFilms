@@ -45,6 +45,7 @@ export class FilmsComponent implements AfterViewInit {
   
 
   ngAfterViewInit(): void {
+    this.filmsService.getFilm(150).subscribe(response => console.log(response));
     this.paginatorS().page.subscribe(pageEvent => {
       console.log('page event:', pageEvent);
       this.indexFromS.set(pageEvent.pageIndex * pageEvent.pageSize);

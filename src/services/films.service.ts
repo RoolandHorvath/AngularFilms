@@ -17,7 +17,8 @@ export interface FilmsResponse {
 export class FilmsService {
   usersService = inject(UsersService);
   http = inject(HttpClient);
-  url = environment.serverUrl;
+  url = environment.serverUrl + 'films/';
+  
   get token() {
     return this.usersService.token;
   }
@@ -51,39 +52,34 @@ export class FilmsService {
         options.params = options.params.set('search', search);
       }
     }
-    return this.http.get<FilmsResponse>(`${this.url}films`, options).pipe(
+    return this.http.get<FilmsResponse>(`${this.url}`, options).pipe(
       catchError(this.handleError)
     );
   }
 
   addFilm(film: Film): Observable<Film> {
-    console.log('Adding new film with data:', film);
-    return this.http.post<Film>(`${this.url}films`, film, this.getTokenHeader()).pipe(
-      tap(response => console.log('Response from adding film:', response)),
+    return this.http.post<Film>(`${this.url}`, film, this.getTokenHeader()).pipe(
+      tap(resp => console.log(`Film ${resp.nazov} (${resp.rok}) was successfully added.`)),
       catchError(this.handleError)
     );
   }
-  
+
   updateFilm(film: Film): Observable<Film> {
-    console.log('Updating film with ID:', film.id, 'Data:', film);
-    return this.http.put<Film>(`${this.url}films/${film.id}`, film, this.getTokenHeader()).pipe(
-      tap(response => console.log('Response from updating film:', response)),
+    return this.http.post<Film>(`${this.url}`, film, this.getTokenHeader()).pipe(
+      tap(resp => console.log(`Film ${resp.nazov} (${resp.rok}) was successfully updated.`)),
       catchError(this.handleError)
     );
   }
-  
+
   getFilm(id: number): Observable<Film> {
-    return this.http.get<Film>(`${this.url}films/${id}`).pipe(
-      catchError(err => {
-        console.error(`Error fetching film with ID ${id}:`, err);
-        return throwError(() => new Error('Failed to fetch film'));
-      }),
+    return this.http.get<Film>(`${this.url}${id}`, this.getTokenHeader()).pipe(
       tap(film => {
         if (!film) console.log(`No film found with ID ${id}`);
-      })
+      }),
+      catchError(this.handleError)
     );
   }
-  
+
   private handleError(error: HttpErrorResponse): Observable<never> {
     console.error('An error occurred:', error.message, 'Error details:', error);
     return throwError(() => new Error('Something went wrong; please try again later.'));
